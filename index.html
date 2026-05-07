@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>The Weeknd/title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75)),
+        url("assets/weeknd-bg.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+    }
+
+    .content {
+      max-width: 800px;
+      padding: 40px;
+      border-radius: 24px;
+      background: rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .tag {
+      display: inline-block;
+      margin-bottom: 18px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.15);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+
+    h1 {
+      font-size: clamp(48px, 10vw, 110px);
+      line-height: 0.9;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: clamp(18px, 3vw, 26px);
+      line-height: 1.5;
+      color: rgba(255, 255, 255, 0.85);
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 24px;
+      border-radius: 999px;
+      color: black;
+      background: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+      background: #e50914;
+      color: white;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 16px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.65);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <section class="content">
+      <span class="tag">Fan Site</span>
+
+      <h1>The Weeknd</h1>
+
+      <p>
+        A simple fan page dedicated to the music, the mood, and the late-night vibes.
+      </p>
+
+      <a class="button" href="https://www.youtube.com/@TheWeeknd" target="_blank">
+        Listen Now
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    Made by a fan
+  </footer>
+</body>
+</html>
